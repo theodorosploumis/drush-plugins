@@ -34,12 +34,21 @@ RUN git clone --branch 8.x-3.x https://git.drupal.org/project/site_audit.git /ro
     git clone https://bitbucket.org/davereid/drush-patchfile.git /root/.drush/drush-patchfile && \
     git clone https://github.com/johnennewdeeson/drush-multi-processing.git /root/.drush/drush-multi-processing && \
     git clone https://github.com/reload/deployotron.git /root/.drush/deployotron && \
-    git clone https://github.com/larowlan/sar.git /root/.drush/sar
+    git clone https://github.com/previousnext/drush_cmi_tools.git /root/.drush/drush_cmi_tools && \
+    git clone https://github.com/dman-coders/drush_get.git /root/.drush/drush_get && \
+    git clone https://github.com/blauerberg/drush-scm.git /root/.drush/drush-scm && \
+    git clone https://github.com/Chi-teck/extension-configuration.git /root/.drush/extension-configuration && \
+    git clone https://github.com/larowlan/sar.git /root/.drush/sar && \
+    git clone https://github.com/mcdruid/drush-snif.git /root/.drush/drush-snif && \
+    git clone https://github.com/gapple/drush-filesync.git /root/.drush/drush-filesync
 
 # Install plugins with composer
 RUN composer require droath/drush-module-sync \
                      juampynr/syncdb \
-                     drush/config-extra
+                     drush/config-extra \
+                     smalot/cerbere:dev-master \
+                     clever-systems/drush_msync \
+                     modules-unraveled/drush-shell-aliases
 
 # Clear drush caches
 RUN drush cc drush
