@@ -28,7 +28,7 @@ docker exec -ti drush_plugins bash
 root@04246cc32d64:/var/www/html# drush
 ```
 
-For modre details see the docker [base image instructions](https://hub.docker.com/r/ricardoamaro/drupal8/).
+For more details see the docker [base image instructions](https://hub.docker.com/r/ricardoamaro/drupal8/).
 
 ## Drush plugins included
 - [cerbere](https://github.com/smalot/drush-cerbere)
