@@ -45,6 +45,6 @@ RUN composer require droath/drush-module-sync \
 RUN drush cc drush
 
 # Change issues link
-RUN sed -i "s/ricardoamaro/drupal8-docker-app/theodorosploumis/drush-plugins/" /start.sh
+RUN sed -i 's/ricardoamaro\/drupal8-docker-app/theodorosploumis\/drush-plugins/' /start.sh
 
 VOLUME /root/.drush
