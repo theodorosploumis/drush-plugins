@@ -1,4 +1,4 @@
-# Docker for drush plugins
+# Drush plugins in Docker
 A docker image with LAMP, Drupal 8.x, latest drush and drush plugins used as a drush playground.
 
 ## Usage
@@ -11,7 +11,7 @@ docker run -ti -p 8088:80 --name drush_plugins tplcom/drush-plugins:latest
 docker exec -ti drush_plugins bash
 
 # Try drush plugins inside the container
-root@04246cc32d64:/var/www/html\# drush
+root@04246cc32d64:/var/www/html # drush
 ```
 
 ## Drush plugins included
@@ -23,4 +23,5 @@ Docker image is based on [ricardoamaro/drupal8](https://hub.docker.com/r/ricardo
 
 ## License
 
-GNU GPL v2
+[GNU GPL v2](https://github.com/theodorosploumis/drush-plugins/blob/master/LICENSE)
+
