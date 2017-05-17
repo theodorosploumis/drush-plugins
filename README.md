@@ -17,17 +17,18 @@ A docker image with LAMP, Drupal 8.x, latest drush and drush plugins used as a d
 ## Usage
 
 ```
-# Start docker container (will create a Drupal app on <DOCKER_IP>:8088 with admin/admin credentials)
+# Start docker container 
+# (will install Drupal on <DOCKER_IP>:8088 with admin/admin credentials)
 docker run -ti -p 8088:80 --name drush_plugins tplcom/drush-plugins:latest
 
-# Bash into the container
+# Execute bash into the container
 docker exec -ti drush_plugins bash
 
-# Try drush plugins inside the container
-root@04246cc32d64:/var/www/html # drush
+# Play with the drush plugins inside the container
+root@04246cc32d64:/var/www/html# drush
 ```
 
-For modre details see the [base image instructions](https://hub.docker.com/r/ricardoamaro/drupal8/).
+For modre details see the docker [base image instructions](https://hub.docker.com/r/ricardoamaro/drupal8/).
 
 ## Drush plugins included
 - [cerbere](https://github.com/smalot/drush-cerbere)
