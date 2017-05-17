@@ -1,3 +1,7 @@
+[![](https://images.microbadger.com/badges/image/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins "Get your own image badge on microbadger.com")
+
+[![](https://images.microbadger.com/badges/version/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins "Get your own version badge on microbadger.com")
+
 # Drush plugins in Docker
 A docker image with LAMP, Drupal 8.x, latest drush and drush plugins used as a drush playground.
 
@@ -17,7 +21,7 @@ A docker image with LAMP, Drupal 8.x, latest drush and drush plugins used as a d
 ## Usage
 
 ```
-# Start docker container 
+# Start docker container
 # (will install Drupal on <DOCKER_IP>:8088 with admin/admin credentials)
 docker run -ti -p 8088:80 --name drush_plugins tplcom/drush-plugins:latest
 
@@ -83,3 +87,5 @@ Docker image is based on [ricardoamaro/drupal8](https://hub.docker.com/r/ricardo
 ## License
 
 [GNU GPL v2](https://github.com/theodorosploumis/drush-plugins/blob/master/LICENSE)
+
+Drupal is a [registered trademark](http://drupal.com/trademark) of [Dries Buytaert](http://buytaert.net/).
