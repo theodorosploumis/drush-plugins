@@ -1,9 +1,7 @@
-[![](https://images.microbadger.com/badges/image/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins "Get your own image badge on microbadger.com")
-
-[![](https://images.microbadger.com/badges/version/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins "Get your own version badge on microbadger.com")
-
 # Drush plugins in Docker
 A docker image with LAMP, Drupal 8.x, latest drush and drush plugins used as a drush playground.
+
+[![](https://images.microbadger.com/badges/image/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins "Get your own version badge on microbadger.com")
 
 ## Software
 
