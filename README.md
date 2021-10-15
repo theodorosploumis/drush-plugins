@@ -1,7 +1,7 @@
 # Drush plugins in Docker
 A docker image with LAMP, Drupal 8.x, latest drush and drush plugins used as a drush playground.
 
-[![](https://img.shields.io/docker/build/tplcom/drush-plugins.svg)](https://hub.docker.com/r/tplcom/drush-plugins) [![](https://images.microbadger.com/badges/image/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins) [![](https://images.microbadger.com/badges/version/tplcom/drush-plugins.svg)](https://microbadger.com/images/tplcom/drush-plugins)
+[![](https://img.shields.io/docker/pulls/tplcom/drush-plugins.svg)](https://hub.docker.com/r/tplcom/drush-plugins)
 
 ## Software
 
